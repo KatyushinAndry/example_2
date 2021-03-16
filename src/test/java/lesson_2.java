@@ -58,7 +58,7 @@ public class lesson_2  {
         $("[for='hobbies-checkbox-1']").click();
 
         //----load_file
-        File file = $(By.id("uploadPicture")).uploadFile(new File("src/test/java/../resources/"+photo_name));
+        $(By.id("uploadPicture")).uploadFile(new File("src/test/java/../resources/"+photo_name));
         //----
 
         $(By.id("currentAddress")).setValue(address);
