@@ -83,6 +83,17 @@ public class lesson_2  {
         $(byXpath("//tr[8]/td[2]")).shouldHave(text(photo_name));
         $(byXpath("//tr[9]/td[2]")).shouldHave(text(address));
         $(byXpath("//tr[10]/td[2]")).shouldHave(text(state+" "+city));
-
+//---- можно так но мне не нравится
+        $(".modal-content").shouldHave(
+                text(first_name+" "+last_name),
+                text(email),
+                text(gender),
+                text(phone),
+                text(birth_check),
+                text(subjects),
+                text(hob),
+                text(photo_name),
+                text(address),
+                text(state+" "+city));
     }
 }

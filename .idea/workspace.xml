@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="304b0d88-6ee4-4615-95fe-32cc5e4ae62e" name="Default Changelist" comment="all project" />
+    <list default="true" id="304b0d88-6ee4-4615-95fe-32cc5e4ae62e" name="Default Changelist" comment="all project_edit_photo_metod">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lesson_2.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,19 +71,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Gradle.lesson_2.selenideSearchTest">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="lesson_2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -139,7 +129,8 @@
       <option name="presentableId" value="Default" />
       <updated>1615843610647</updated>
       <workItem from="1615843613075" duration="11365000" />
-      <workItem from="1615872858435" duration="15625000" />
+      <workItem from="1615872858435" duration="15813000" />
+      <workItem from="1615889051514" duration="310000" />
     </task>
     <task id="LOCAL-00001" summary="gradle+ignore">
       <created>1615844097851</created>
@@ -155,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615888376614</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="all project_edit_photo_metod">
+      <created>1615888743268</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1615888743268</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +174,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="gradle+ignore" />
     <MESSAGE value="all project" />
-    <option name="LAST_COMMIT_MESSAGE" value="all project" />
+    <MESSAGE value="all project_edit_photo_metod" />
+    <option name="LAST_COMMIT_MESSAGE" value="all project_edit_photo_metod" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/lesson_2.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
