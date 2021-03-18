@@ -40,3 +40,8 @@ target/
 .vscode
 /gradlew
 /gradlew.bat
+/.gradle/
+/build/
+/build/classes/java/test/
+/gradle/
+/.idea/
