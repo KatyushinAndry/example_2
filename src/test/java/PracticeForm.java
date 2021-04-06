@@ -27,9 +27,10 @@ public class PracticeForm {
         String birthMonth = "December";
         String birthYear = "1985";
         //String birth = "12/04/1985";
-        String birthСheck ="04 December,1985";
+        String birthCheck = birthDay + " " + birthMonth + "," + birthYear;
         String subjects = "English";
         String hobby = "Sports";
+        String filePath = "src/test/resources/";
         String photoName = "photo_2021-03-10_20-56-18.jpg";
         String address = "Suite 12 2nd Floor,\n" + "Queens House,\n" +"180 Tottenham Court Road,\n" + "London W1T 7PD";
         String state = "Haryana";
@@ -68,7 +69,7 @@ public class PracticeForm {
         $("[for='hobbies-checkbox-1']").click();
 
         //----LoadFile
-        $("#uploadPicture").uploadFile(new File("./src/test/java/../resources/"+ photoName));
+        $("#uploadPicture").uploadFile(new File(filePath + photoName));
         //----
 
         $("#currentAddress").setValue(address);
@@ -86,7 +87,7 @@ public class PracticeForm {
         $(".table-responsive").$(byText("Student Email")).parent().shouldHave(text(email));
         $(".table-responsive").$(byText("Gender")).parent().shouldHave(text(gender));
         $(".table-responsive").$(byText("Mobile")).parent().shouldHave(text(phone));
-        $(".table-responsive").$(byText("Date of Birth")).parent().shouldHave(text(birthСheck));
+        $(".table-responsive").$(byText("Date of Birth")).parent().shouldHave(text(birthCheck));
         $(".table-responsive").$(byText("Subjects")).parent().shouldHave(text(subjects));
         $(".table-responsive").$(byText("Hobbies")).parent().shouldHave(text(hobby));
         $(".table-responsive").$(byText("Picture")).parent().shouldHave(text(photoName));
@@ -101,7 +102,7 @@ public class PracticeForm {
         $(byXpath("//tr[2]/td[2]")).shouldHave(text(email));
         $(byXpath("//tr[3]/td[2]")).shouldHave(text(gender));
         $(byXpath("//tr[4]/td[2]")).shouldHave(text(phone));
-        $(byXpath("//tr[5]/td[2]")).shouldHave(text(birthСheck));
+        $(byXpath("//tr[5]/td[2]")).shouldHave(text(birthCheck));
         $(byXpath("//tr[6]/td[2]")).shouldHave(text(subjects));
         $(byXpath("//tr[7]/td[2]")).shouldHave(text(hobby));
         $(byXpath("//tr[8]/td[2]")).shouldHave(text(photoName));
@@ -113,7 +114,7 @@ public class PracticeForm {
                 text(email),
                 text(gender),
                 text(phone),
-                text(birthСheck),
+                text(birthCheck),
                 text(subjects),
                 text(hobby),
                 text(photoName),
